@@ -36,6 +36,15 @@ form {
     justify-content: center;
     align-items: center;
 }
+#button-learner{
+    padding: 0.3rem;
+    background-color: crimson;
+    border: none;
+    border-radius: 0.2rem;
+    transition: all 0.5s ease-out;
+    color: white;
+    font-weight: bold;
+}
 
 button {
     padding: 0.3rem;

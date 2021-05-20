@@ -1,0 +1,48 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <title>Apprenants</title>
+  <link rel="stylesheet" href="main.css">
+</head>
+<body>
+<h1>🤦‍♀ Gestion des apprenants 🤦‍♂</h1>
+<section>
+<h2>Ajouter un apprenant</h2>
+
+<form id="add-form">
+  <label>Nom </label>
+  <input id="last-name" type="text" required>
+
+  <label>Prénom </label>
+  <input id="first-name" type="text" required>
+
+  <label>Promo </label>
+    <select id="classroom-menu">
+    <option value=" ">  </option>
+    <option value="1">Natixis</option>
+    <option value="2">La Banque Postale</option>
+  </select>
+
+</form>
+  <button id="button-submit"> Valider</button>
+</section>
+
+<section>
+  <h2>Liste des apprenants</h2>
+  <table>
+    <thead>
+    <tr>
+      <th>Nom</th>
+      <th>Prénom</th>
+      <th>Promo</th>
+      </tr>
+    </thead>
+    <tbody id="table-body">
+    </tbody>
+  </table>
+
+</section>
+<script src="scratch-learner.js"></script>
+</body>
+</html>
