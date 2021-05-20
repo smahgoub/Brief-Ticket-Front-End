@@ -11,8 +11,19 @@
 <h2>👽 Ici c'est comme à la poissonerie 🐠, il faut faire la queue !</h2>
 
 <form id="help-form">
-    <label for="input-name">Ton nom :</label>
-    <input id="input-name" type="text" required>
+    <label>Ton nom :</label>
+
+    <select id="menu">
+        <option value="" Ton prénom></option>
+        <option value="1">Sabrine</option>
+        <option value="2">Gilles</option>
+        <option value="3">Nadia</option>
+        <option value="4">Idir</option>
+        <option value="5">Valérie</option>
+    </select>
+
+    <label for="input-desc">Description :</label>
+    <input id="input-desc" type="text" required>
     <button type="submit">Je veux de l'aide 👋</button>
 </form>
 
@@ -23,7 +34,9 @@
         <thead>
         <tr>
             <th>Position</th>
-            <th>Nom</th>
+            <th>ID ticket</th>
+            <th>Prenom</th>
+            <th>Description</th>
             <th>Passer mon tour</th>
         </tr>
         </thead>
